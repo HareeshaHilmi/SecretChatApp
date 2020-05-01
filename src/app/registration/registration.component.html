@@ -1,15 +1,52 @@
-<div class="regform"><h1>Register Here</h1></div>
-<div class="mane">
-  <form>
+
+<div class="bg">
+  <div class="regform" ><h1>Register Here</h1></div>
+<div class="main">
+  <form class="fo">
     <div id="name">
       <h2 class="name">Name</h2>
       <input class="firstname" type="text" name="fname"><br>
       <label class="flable">First Name</label>
-      <input class="lastname" type="text" name="lname"><br>
-      <label class="llable">Last Name</label>
+      <input class="lastname" type="text" name="lname">
+      <label class="llable">Last Name</label><br>
+
+
     </div>
 
-    <h2 class="name">Company</h2>
+    <h2 class="name">User Name</h2>
     <input class="company" type="text" name="company">
+
+    <h2 class="name">Email</h2>
+    <input class="email" type="text" name="email">
+
+    <h2 class="name">Password</h2>
+    <input class="code" type="password" name="area_code">
+    <label class="area_code">Password</label>
+    <input class="number" type="text" name="phone">
+    <label class="phone_number">Confirm Password</label>
+
+    <h2 class="name">Subjects</h2>
+    <select class="option" name="subject">
+      <option disabled="disabled" selected="selected">--Choose Option</option>
+      <option>Subject 1</option>
+      <option>Subject 2</option>
+      <option>Subject 3</option>
+    </select>
+
+    <h2 id="customer">Are you beginner?</h2>
+
+    <label class="radio">
+      <input class="radio-one" type="radio" checked="checked" name="">
+      <span class="checkmark"></span>
+      Yes
+    </label>
+    <label class="radio">
+      <input class="radio-two" type="radio" checked="checked" name="">
+      <span class="checkmark"></span>
+      No
+    </label><br>
+
+    <button type="submit" class="b"> Register</button>
   </form>
+</div>
 </div>
